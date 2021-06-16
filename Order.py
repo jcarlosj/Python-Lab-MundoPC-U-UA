@@ -9,11 +9,11 @@ class Order :
 
     def __init__( self ) :
         self .__products = []
-        self .__id = 0
+        self .__id = self .increment_counter()
 
     def __str__( self ) :
         # [ str( product ) for product in self .__products ]: Es una lista de compresion
-        return f'{ type( self ) .__name__ } { self .__id } \n { [ str( product ) for product in self .__products ] }'
+        return f'{ type( self ) .__name__ } { self .__id } \n { [ str( product ) for product in self .__products ] } '
 
     @classmethod
     def increment_counter( cls ) :
@@ -22,9 +22,9 @@ class Order :
         return cls .counter
 
     def add( self, computer ) :
-        self .__id = self .increment_counter()
         self .__products .append( computer )
 
+# ! Testing:
 if __name__ == '__main__' :
     monitor_1 = Monitor( 'Samsung', '21"' )
     monitor_2 = Monitor( 'Dell', '29"' )

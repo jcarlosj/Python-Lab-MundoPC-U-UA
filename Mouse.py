@@ -17,6 +17,7 @@ class Mouse( Device ) :
 
         return cls .counter
 
+# ! Testing:
 if __name__ == '__main__' :
     mouse_1 = Mouse( 'Mouse', 'Microsoft' )
     print( mouse_1 )

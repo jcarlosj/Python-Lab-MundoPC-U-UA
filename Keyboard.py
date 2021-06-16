@@ -17,6 +17,7 @@ class Keyboard( Device ) :
 
         return cls .counter
 
+# ! Testing:
 if __name__ == '__main__' :
     keyboard_1 = Keyboard( 'Keyboard', 'Logitec' )
     print( keyboard_1 )

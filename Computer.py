@@ -22,6 +22,7 @@ class Computer :
 
         return cls .counter
 
+# ! Testing:
 if __name__ == '__main__' :
     monitor_1 = Monitor( 'Samsung', '21"' )
     keyboard_1 = Keyboard( 'Keyboard', 'Logitec' )
