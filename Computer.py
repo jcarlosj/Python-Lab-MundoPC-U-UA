@@ -14,7 +14,12 @@ class Computer :
         self .__id = self .increment_counter()
 
     def __str__( self ) :
-        return f'{ type( self ) .__name__ } { self .__id } - { self .__name } [ { self .__monitor .__str__() }, { self .__keyboard .__str__() }, { self .__mouse .__str__() } ]'
+        return f'''
+        Product: { type( self ) .__name__ }, ID: { self .__id }, Name: { self .__name }
+            { self .__monitor }
+            { self .__keyboard }
+            { self .__mouse }
+        '''
 
     @classmethod
     def increment_counter( cls ) :
@@ -24,14 +29,14 @@ class Computer :
 
 # ! Testing:
 if __name__ == '__main__' :
-    monitor_1 = Monitor( 'Samsung', '21"' )
-    keyboard_1 = Keyboard( 'Keyboard', 'Logitec' )
-    mouse_1 = Mouse( 'Mouse', 'Logitec' )
+    monitor_1 = Monitor( 'Samsung', 21 )
+    keyboard_1 = Keyboard( 'USB', 'Logitec' )
+    mouse_1 = Mouse( 'USB', 'Logitec' )
 
     computer_1 = Computer( 'Gamming PC', monitor_1, keyboard_1, mouse_1 )
 
     print( computer_1 )
 
-    monitor_2 = Monitor( 'Dell', '29"' )
-    computer_2 = Computer( 'DesignWeb', monitor_2 )
+    monitor_2 = Monitor( 'Dell', 29 )
+    computer_2 = Computer( 'Design PC', monitor_2 )
     print( computer_2 )

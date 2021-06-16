@@ -21,7 +21,7 @@ class Device :
         self ._brand = brand
 
     def __str__( self ) :
-        return f'{ type( self ) .__name__ } [ brand: { self ._brand }, type: { self ._input_type } ]'
+        return f'Product: { type( self ) .__name__ }, Brand: { self ._brand }, Type: { self ._input_type }'
 
 
 # ! Testing:

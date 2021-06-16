@@ -16,7 +16,7 @@ class Monitor :
         return self .__size
 
     def __str__( self ) -> str:
-        return f'{ type( self ) .__name__ } { self .__id } [ brand: { self .__brand }, size: { self .__size } ]'
+        return f'ID: { self .__id }, Product: { type( self ) .__name__ }, Brand: { self .__brand }, Size: { self .__size }'
 
     @classmethod
     def generate_id( cls ) :
@@ -26,5 +26,7 @@ class Monitor :
 
 # ! Testing:
 if __name__ == '__main__' :
-    monitor_1 = Monitor( 'Samsung', '15"' )
+    monitor_1 = Monitor( 'Samsung', 21 )
+    monitor_2 = Monitor( 'HP', 19 )
     print( monitor_1 )
+    print( monitor_2 )
