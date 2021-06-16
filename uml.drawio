@@ -1,98 +1,101 @@
 <mxfile>
     <diagram id="qayZgwgJXsySZK4FvLoU" name="Class Diagram">
-        <mxGraphModel dx="1017" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+        <mxGraphModel dx="1381" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="3" value="Mundo PC" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="30" width="960" height="750" as="geometry"/>
+                    <mxGeometry x="20" y="60" width="1290" height="750" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Computer&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- monitor: Monitor&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- keyboard: Keyboard&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- mouse: Mouse&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ increment_counter() &amp;lt;@classmethod&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="395" y="575" width="220" height="170" as="geometry"/>
+                <mxCell id="2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Computer&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- monitor: Monitor&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- keyboard: Keyboard&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- mouse: Mouse&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __init__( name: string, monitor: Monitor, keyboard: Keyboard, mouse: Mouse )&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ increment_counter() &amp;lt;@classmethod&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="597.5" width="470" height="182.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Monitor&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- brand: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- size: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get brand()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get size()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="75" y="575" width="160" height="155" as="geometry"/>
+                <mxCell id="7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Monitor&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- brand: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- size: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __init__( size, brand )&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get brand()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get size()&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="611.25" width="160" height="155" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;fontColor=#FFFF33;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7" target="2" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="355" y="830" as="sourcePoint"/>
-                        <mxPoint x="515" y="830" as="targetPoint"/>
+                        <mxPoint x="375" y="860" as="sourcePoint"/>
+                        <mxPoint x="535" y="860" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="9" value="aggregate" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FFFF33;" parent="1" vertex="1">
-                    <mxGeometry x="285" y="610" width="80" height="26" as="geometry"/>
+                    <mxGeometry x="270" y="660" width="80" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;fontColor=#FFFF33;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="30" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="355" y="820" as="sourcePoint"/>
-                        <mxPoint x="515" y="820" as="targetPoint"/>
+                        <mxPoint x="375" y="850" as="sourcePoint"/>
+                        <mxPoint x="535" y="850" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="12" value="aggregate" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FFFF33;" parent="1" vertex="1">
-                    <mxGeometry x="615" y="610" width="80" height="26" as="geometry"/>
+                    <mxGeometry x="920" y="660" width="80" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Device&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# input_type: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# brand: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get type()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ set Type()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get brand()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ set brand()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="410" y="90" width="160" height="150" as="geometry"/>
+                <mxCell id="13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Device&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# input_type: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# brand: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __init__( type, brand )&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get type()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ set Type()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get brand()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ set brand()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="100" width="160" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Mouse&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ increment_counter() &amp;lt;@classmethod&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="360" width="230" height="110" as="geometry"/>
+                <mxCell id="14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Mouse&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __init__( type, brand )&lt;br&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ increment_counter() &amp;lt;@classmethod&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="370" width="230" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Keyboard&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ increment_counter() &amp;lt;@classmethod&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="360" width="230" height="110" as="geometry"/>
+                <mxCell id="15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Keyboard&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __init__( type, brand )&lt;br&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ increment_counter() &amp;lt;@classmethod&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="730" y="370" width="230" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;fontColor=#FFFF33;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="14" target="13" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="370" y="470" as="sourcePoint"/>
-                        <mxPoint x="530" y="470" as="targetPoint"/>
+                        <mxPoint x="535" y="480" as="sourcePoint"/>
+                        <mxPoint x="695" y="480" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="17" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;fontColor=#FFFF33;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="15" target="13" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="280" y="500" as="sourcePoint"/>
-                        <mxPoint x="440" y="500" as="targetPoint"/>
+                        <mxPoint x="445" y="510" as="sourcePoint"/>
+                        <mxPoint x="605" y="510" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="18" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;fontColor=#FFFF33;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="14" target="2" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="370" y="560" as="sourcePoint"/>
-                        <mxPoint x="530" y="560" as="targetPoint"/>
+                        <mxPoint x="390" y="590" as="sourcePoint"/>
+                        <mxPoint x="550" y="590" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="19" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;fontColor=#FFFF33;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="15" target="2" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="370" y="560" as="sourcePoint"/>
-                        <mxPoint x="530" y="560" as="targetPoint"/>
+                        <mxPoint x="390" y="590" as="sourcePoint"/>
+                        <mxPoint x="550" y="590" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="20" value="aggregate" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FFFF33;" parent="1" vertex="1">
-                    <mxGeometry x="575" y="500" width="80" height="26" as="geometry"/>
+                    <mxGeometry x="820" y="530" width="80" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="aggregate" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FFFF33;" parent="1" vertex="1">
-                    <mxGeometry x="330" y="500" width="80" height="26" as="geometry"/>
+                    <mxGeometry x="410" y="530" width="80" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="23" value="&lt;h1&gt;Conventions&lt;/h1&gt;&lt;p&gt;+ public&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font color=&quot;#ffffff&quot;&gt;counter&lt;/font&gt;&lt;br&gt;- private&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;font color=&quot;#ffffff&quot;&gt;__id&lt;/font&gt;&lt;br&gt;# protected&amp;nbsp; &amp;nbsp;&lt;font color=&quot;#ffffff&quot;&gt;_type&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFF33;align=left;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="80" width="190" height="120" as="geometry"/>
+                    <mxGeometry x="50" y="100" width="190" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;1&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#FFFF33;align=center;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="90" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="510" y="100" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;1&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#FFFF33;align=center;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="575" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="40" y="611.25" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;2&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#FFFF33;align=center;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="360" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="310" y="370" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;2&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#FFFF33;align=center;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="490" y="360" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="680" y="370" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;3&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#FFFF33;align=center;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="355" y="575" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="370" y="596.25" width="30" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="&lt;b&gt;&lt;font style=&quot;font-size: 22px&quot;&gt;4&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=#FFFF33;align=center;labelBackgroundColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="590" width="30" height="30" as="geometry"/>
+                    <mxGeometry x="1000" y="626.25" width="30" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Order&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- products: List &amp;lt;Computer&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ increment_counter() &amp;lt;@classmethod&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ add( obj: computer )&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="740" y="582.5" width="230" height="140" as="geometry"/>
+                <mxCell id="30" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Order&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ counter: int &amp;lt;static&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- id: int&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- products: List &amp;lt;Computer&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __init__( name, computers: List )&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ __str__()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ increment_counter() &amp;lt;@classmethod&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ add( obj: computer )&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="626.25" width="230" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;h1&gt;Mundo PC&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#FFFF33;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="20" width="190" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
