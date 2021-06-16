@@ -35,10 +35,10 @@ class Order :
 if __name__ == '__main__' :
     monitor_1 = Monitor( 'Samsung', '21"' )
     monitor_2 = Monitor( 'Dell', '29"' )
-    keyboard_1 = Keyboard( 'Keyboard', 'Logitec' )
-    keyboard_2 = Keyboard( 'Keyboard', 'Microsoft' )
-    mouse_1 = Mouse( 'Mouse', 'Logitec' )
-    mouse_2 = Mouse( 'Mouse', 'Microsoft' )
+    keyboard_1 = Keyboard( 'USB', 'Logitec' )
+    keyboard_2 = Keyboard( 'USB', 'Microsoft' )
+    mouse_1 = Mouse( 'USB', 'Logitec' )
+    mouse_2 = Mouse( 'USB', 'Microsoft' )
 
     computer_1 = Computer( 'Gamming PC', monitor_1, keyboard_1, mouse_1 )
     computer_2 = Computer( 'Design PC', monitor_2 )
